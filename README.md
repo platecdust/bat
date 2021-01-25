@@ -11,6 +11,8 @@
   - ディレクトリをアーカイブ化
 - backupworld
   - Minecraftのワールドデータをバックアップ
+- jpgtopng
+  - .jpgを.pngに変換
 - ugoiratomp4
   - zip圧縮されたPixivのうごイラをpngとmp4に変換
 - waifu2x_x64
