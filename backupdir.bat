@@ -20,3 +20,5 @@ set dirname=backup_%yyyy%%mm%%dd%_%hr%%mn%%ss%
 xcopy /e %target% %dirname%\
 %archiver%\7z.exe a %dirname%.zip %dirname%
 rmdir /s /q %dirname%
+
+exit

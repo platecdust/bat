@@ -55,3 +55,4 @@ del %delbak%
 del D:\plate\OneDrive\バックアップ\MinecraftWorlds\%od_delbak%
 
 rem pause
+exit

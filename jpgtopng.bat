@@ -8,3 +8,5 @@ rem mogrify -format png -colorspace Gray -define png:color-type=0 -quality 96 *.
 
 md original
 move /y *.jpg original\
+
+exit

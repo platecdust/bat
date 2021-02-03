@@ -27,3 +27,4 @@ rem ignore option -p%pass%
 
 echo completed
 pause
+exit
