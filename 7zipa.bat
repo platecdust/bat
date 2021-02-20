@@ -17,7 +17,7 @@ echo ok?
 pause
 
 for %%f in (%*) do (
-  %archiverPath% a -mmt=on -mx=%level% -ssw -t%format% "%destinationFolder%%%~nf.7z" %%f
+  %archiverPath% a -mmt=on -mx=%level% -ssw -t%format% "%destinationFolder%%%~nf.%format%" %%f
 )
 rem -mmt=on/off/n マルチスレッディング
 rem -mx=n(0無圧縮-9超圧縮) 圧縮率
